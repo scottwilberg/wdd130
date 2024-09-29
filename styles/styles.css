@@ -34,6 +34,9 @@ p {
     padding: 0;
     margin-bottom: 10px;
 }
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
 main {
     max-width: 800px;
 }
