@@ -6,6 +6,20 @@
     background-color: royalblue;
     color: white;
 }
+body {
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+}
+h2 {
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
 
 .callout img {
     float: right;
