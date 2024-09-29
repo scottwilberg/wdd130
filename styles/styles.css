@@ -46,9 +46,9 @@ aside img {
     height: auto;
 }
 aside h2 {
-    position: relative;
-    top: 30px;
-    left: 10px;
+    position: absolute;
+    top: 730px;
+    left: 160px;
     color: var(--nav-background-color);
 }
 footer {
