@@ -1,43 +1,66 @@
+:root{
+    --nav-background-color: steelblue;
+    --a-color: white;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
-    background-color: steelblue;
+    background-color: var(--nav-background-color);
     padding: 10px
 }
 nav a {
-    color: white;
+    color: var(--a-color);
     display: block;
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: var(--nav-background-color);
+    padding-bottom: 20px;
 }
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--nav-background-color);
     padding: 2px;
+    margin: 10px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 p {
     padding: 0;
+    margin-bottom: 10px;
 }
 main {
     max-width: 800px;
 }
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 2rem;
-    background-color: darkgreen;
-    color: white;
     text-align: center;
 }
 aside img {
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    color: var(--nav-background-color);
+}
 footer {
     margin-top: 20px;
-    border-top: 1px solid white;
+    border-top: 1px solid var(--a-color);
     text-align: center;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: var(--nav-background-color);
+    color: var(--a-color)
 }
