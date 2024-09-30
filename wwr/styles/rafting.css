@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #d36336;
+    --secondary-color: #031D44;
+    --accent-color1: #FCE762;
+    --accent-color2: #FFFDED;
+}
+h1 {
+    background-color: var(--primary-color);
+    color: var(--accent-color2);
+}
+p {
+    background-color: var(--accent-color1);
+    color: var(--secondary-color);
+}
+a {
+    text-decoration: none;
+}
+div {
+    max-width: 1200px;
+}
+div .hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1 article {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.hero article img {
+    float: right;
+}
+nav a img {
+    margin: 10px;
+    float: right;
+    width: 30px;
+}
