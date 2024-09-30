@@ -1,16 +1,18 @@
 :root {
     --primary-color: #d36336;
-    --secondary-color: #031D44;
-    --accent-color1: #FCE762;
+    --secondary-color: rgb(3, 29, 68);
+    --accent-color1: #fce864;
     --accent-color2: #FFFDED;
 }
 h1 {
-    background-color: var(--primary-color);
+    background-color: rgb(211, 99, 54, 0.6);
     color: var(--accent-color2);
+    font-size: 55px;
 }
 p {
-    background-color: var(--accent-color1);
-    color: var(--secondary-color);
+    background-color: rgb(3, 29, 68, 0.8);
+    color: var(--accent-color2);
+    font-size: 18px;
 }
 a {
     text-decoration: none;
@@ -18,6 +20,11 @@ a {
 div {
     max-width: 1200px;
 }
+.logo-box {
+    background-color: var(--primary-color);
+    border: var(--secondary-color) solid 1em;
+}
+
 div .hero {
     position: relative;
 }
@@ -27,13 +34,28 @@ div .hero {
     width: 100%;
     height: auto;
 }
-.hero h1 article {
+.hero h1 {
     position: absolute;
-    top: 50px;
-    left: 100px;
+    top: 280px;
+    left: 50px;
+    padding-inline: 180px;
+}
+.hero article {
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    max-width: 1100px;
+}
+.hero article p {
+    
+    padding-inline: 50px;
+    padding-block:  50px;
 }
 .hero article img {
+    display: block;
+    width: 300px;
     float: right;
+    padding:10px;
 }
 nav a img {
     margin: 10px;
