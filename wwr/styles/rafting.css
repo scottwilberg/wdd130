@@ -41,7 +41,7 @@ div .hero {
     position: absolute;
     top: 280px;
     left: 50px;
-    padding-inline: 180px;
+    padding-inline: 180px;  
 }
 .hero article {
     position: absolute;
@@ -66,4 +66,9 @@ nav a img {
     margin: 10px;
     float: right;
     width: 30px;
+}
+footer {
+    display: grid;
+    grid-template-columns: 800px auto auto auto;
+    background-color: var(--secondary-color);
 }
