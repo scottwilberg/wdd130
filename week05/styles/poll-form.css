@@ -27,7 +27,6 @@ form {
     border-radius: 1em;
     background-color: white;
     display: grid;
-    grid-template-rows: 1fr 1fr;
 }
 fieldset {
     display: grid;
@@ -37,25 +36,26 @@ fieldset {
     padding: 1rem;
 }
 legend {
-    padding: 1rem;
+    padding: 0.5rem;
     color: black;
-    text-align: center;
+    font-weight: bold;
     font-size: 1.2em;
 }
 label, input, button, select, textarea {
-    font-family: Arial;    
+    font-family: Arial; 
+    font-size: 1.2rem;  
 }
 label {
     text-align: right;
     padding-right: 1rem;
 }
 input, select, textarea {
-    padding-right: 1rem;
+    padding: 0.5rem;
     font-size: 1.1rem;
 }
 input[type='checkbox'] {
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     vertical-align: bottom;
 }
 button {
@@ -88,5 +88,8 @@ footer {
 }
 .column2 {
     grid-template-columns: 1fr 2fr;
-
+}
+.column3 {
+    text-align-last: center;
+    margin-top: 15px;
 }
