@@ -4,7 +4,9 @@
     --accent-color1: #fce864;
     --accent-color2: #FFFDED;
 }
-
+* {
+    font-family: poppins;
+}
 .logo-box {
     display: grid;
     grid-template-columns: 450px auto;
@@ -54,7 +56,7 @@ div {
     left: 100px;
     max-width: 1050px;
 }
-h3 {
+.about h3 {
     font-size: 30px;
 }
 .about{
@@ -65,7 +67,7 @@ h3 {
 .hero article p {
     font-size: 20px;
 }
-.hero article p, h3 {
+.hero article p, .hero article h3 {
     padding-inline: 50px;
     padding-block:  10px;
     margin: 0;
@@ -138,25 +140,25 @@ main .contact {
     grid-template-columns: repeat(2, 1fr); 
     background-color: var(--accent-color1);  
 }
-.top h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.top h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 2em;
     text-align: center;
 }
-.top h2, p {
-    font-family: Arial, Helvetica, sans-serif;   
+.top h3, .top p { 
+    font-size: 20px; 
+    padding: 0;
     margin-left: 50px;
 }
 .map {
-    border: var(--secondary-color) solid 5px;
+    text-align: center;
 }
 .profile {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: var(--secondary-color);
     color: var(--accent-color2);
-    font-family: poppins;
 }
 .profile h1 {
     grid-column: 1/4;
@@ -172,7 +174,6 @@ main .contact {
     text-align: center;
 }
 form {
-    font-family: poppins;
     width: 1000px;
     margin: 2rem auto;
     padding: 2rem;
