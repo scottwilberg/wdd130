@@ -59,7 +59,7 @@ input[type='checkbox'] {
     vertical-align: bottom;
 }
 button {
-    margin: 1rem;
+    margin: 0 200px;
     background-color: midnightblue;
     color:honeydew;
     border: none;
