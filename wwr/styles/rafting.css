@@ -106,10 +106,10 @@ nav a img {
     display: grid;
     justify-content: space-around;
     background-color: var(--accent-color2);
+    text-align: center;
 }
 .adventure h2 {
     grid-column: 1/6;
-    text-align: center;
     color: var(--secondary-color);
     font-size: 40px;
 
@@ -121,11 +121,8 @@ nav a img {
     margin: 5px;
     border: #031d44 solid 1px;
 }
-.adventure figure {
-    
-    text-align: center;
-    color: var(--secondary-color);
-    
+.adventure figure { 
+    color: var(--secondary-color);   
 }
 footer {
     display: grid;
