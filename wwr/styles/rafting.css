@@ -144,7 +144,7 @@ footer {
 .sociallinks{
     text-decoration: none;
 }
-footer a:visited {
+footer a:visited, footer a:link{
     color: var(--accent-color2);
 }
 main .contact {
@@ -190,7 +190,7 @@ main .contact {
     align-content: center;
     padding: .5rem;
 }
-.profile figure{
+.profile figure {
     text-align: center;
 }
 form {
