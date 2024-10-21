@@ -185,6 +185,7 @@ main .contact {
 }
 .profile img {
     height: 250px;
+    width: auto;
     justify-content: space-between;
     align-content: center;
     padding: .5rem;
